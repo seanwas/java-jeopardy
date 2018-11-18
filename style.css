@@ -1,0 +1,111 @@
+body {
+  background: lightblue;
+  text-align: center;
+  overflow: hidden;
+}
+
+.category {
+  border: 4px solid black;
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+  border-radius: 20px;
+  background: blue;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.categories,
+.category,
+.questions,
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.question {
+  border: 3px solid black;
+  width: 80px;
+  height: 40px;
+  margin: 20px;
+  border-radius: 20px;
+  background: aqua;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.question-area {
+  font-size: 100px;
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  border: 2px solid red;
+  background: red;
+  border: 2px solid black;
+  /* padding: 10px 400px; */
+}
+button {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  background: lightgreen;
+  border-radius: 15px;
+}
+.show-answer {
+  height: 0;
+}
+
+#question-btn {
+  position: absolute;
+  bottom: 10px;
+}
+
+.logo-area {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background-image: url("jeopardy-logo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid black;
+}
+
+.settings-area {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: darkblue;
+  border: 2px solid black;
+}
+
+#play-btn {
+  position: absolute;
+  top: 50px;
+  left: 43%;
+  background: darkblue;
+  color: white;
+  font-weight: bold;
+}
+.settings-area{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.players{
+    margin: 20px 0;
+}
