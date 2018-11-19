@@ -16,7 +16,7 @@
         <hr />
         <div class="avatar-score">
           <div><img src="avatar1.png" class="avatar" /></div>
-          <div><h1 class="score">$0</h1></div>
+          <div><h2 class="score">$0</h2></div>
         </div>
         <h3 class='score-name'>Player 1</h3>
       </div>
@@ -25,7 +25,7 @@
         <hr />
         <div class="avatar-score">
           <div><img src="avatar2.png" class="avatar" /></div>
-          <div><h1 class="score">$0</h1></div>
+          <div><h2 class="score">$0</h2></div>
         </div>
         <h3  class='score-name'>Player 2</h3>
       </div>
@@ -34,7 +34,7 @@
         <hr />
         <div class="avatar-score">
           <div><img src="avatar3.png" class="avatar" /></div>
-          <div><h1 class="score">$0</h1></div>
+          <div><h2 class="score">$0</h2></div>
         </div>
         <h3 class='score-name'>Player 3</h3>
       </div>
@@ -98,7 +98,15 @@
     <div class="question-area" id="question-area" style="visibility: hidden">
         <div class="questionbox">
                 <div id="show-question">Question Area</div>
-                <button id="question-btn">Show Answer</button>
+                <div class='player-buttons'>
+                  <button class="player-btn" id='0'>Player A</button>
+                  <button class="player-btn" id='1'>Player B</button>
+                  <button class="player-btn" id='2'>Player C</button>
+                </div>
+               
+
+                <button id="question-btn" style="visibility: hidden">Show Answer</button>
+                
         </div>
       <div id="show-answer" style="visibility: hidden">Answer Area</div>
     </div>
@@ -107,7 +115,8 @@
     <div class="settings-area" style="visibility: hidden">
       <h1 id="settings-message">Select the number of players/teams</h1>
       <div id="num-players">
-        <button class="players">1</button> <button class="players">2</button>
+        <button class="players">1</button> 
+        <button class="players">2</button>
         <button class="players">3</button>
       </div>
 

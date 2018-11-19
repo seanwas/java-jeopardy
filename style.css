@@ -72,7 +72,7 @@ button {
   height: 0;
 }
 
-#question-btn {
+#question-btn, .player-buttons {
   position: absolute;
   bottom: 10px;
 }

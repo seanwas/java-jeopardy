@@ -40,5 +40,8 @@ var players = {
     number: 0,
     name: [],
     avatar: [],
-    score: [0, 0, 0]
+    score: [0, 0, 0],
+    current: 1,
+    currentAmount: 0,
+    buttons: []
 }
