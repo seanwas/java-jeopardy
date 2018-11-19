@@ -1,12 +1,7 @@
 var questiondata = [{
-        categoryName: "Java BASIC",
-        questions: ["The year Java was created", "The languages Java was based on", "This means to write one set of code which can then be run on different platforms", "This is needed by an operating system to compile and run Java", "The programming language, the runtime environment, and the standards library(ies)"],
-        answers: ["What is 1995?", "What is C and C++?", "What is Platform Independent?", "What is the JVM (Java Virtual Machine)?", "What is the JDK (Java Development Kit)"]
-    },
-    {
         categoryName: "Hot Cup of Java",
-        questions: ["Eclipse, NetBeans & IntelliJ are examples of these", "This is a web-based hosting service used for version control among other things","A library mangament tool that is configured with a pom file?", "An ORM framework that simplifies Java development by interacting with the database", "Spring and Hibernate can be added to Maven as these"],
-        answers: ["What is an IDE (Integrated Development Environment)?", "What is Git Hub?","What is Maven?", "What is Hibernate?","What are dependencies?"]
+        questions: ["Eclipse, NetBeans & IntelliJ are examples of these", "This is a web-based hosting service used for version control among other things", "A library mangament tool that is configured with a pom file?", "An ORM framework that simplifies Java development by interacting with the database", "Spring and Hibernate can be added to Maven as these"],
+        answers: ["What is an IDE (Integrated Development Environment)?", "What is Git Hub?", "What is Maven?", "What is Hibernate?", "What are dependencies?"]
     },
     {
         categoryName: "OOPs, I did it again",
@@ -22,7 +17,12 @@ var questiondata = [{
     {
         categoryName: "Initial Commit",
         questions: ["IDE", "JDK", "JVM", "JRE", "JAR"],
-        answers: ["What is Integrated Development Environment?", "What is Java Development Kit?", "What is Java Virtual Machine?", "What is Java Runtime Environment?","What is Java ARchive?"]
+        answers: ["What is Integrated Development Environment?", "What is Java Development Kit?", "What is Java Virtual Machine?", "What is Java Runtime Environment?", "What is Java ARchive?"]
+    },
+    {
+        categoryName: "Java BASIC",
+        questions: ["The year Java was created", "The languages Java was based on", "This means to write one set of code which can then be run on different platforms", "This is needed by an operating system to compile and run Java", "The programming language, the runtime environment, and the standards library(ies)"],
+        answers: ["What is 1995?", "What is C and C++?", "What is Platform Independent?", "What is the JVM (Java Virtual Machine)?", "What is the JDK (Java Development Kit)"]
     },
     {
         categoryName: "Your Package has Arrived",
@@ -35,3 +35,10 @@ var questiondata = [{
         answers: ["What is Polymorphism?", "answer 2", "answer 3", "answer 4", "answer 5"]
     }
 ]
+
+var players = {
+    number: 0,
+    name: [],
+    avatar: [],
+    score: [0, 0, 0]
+}

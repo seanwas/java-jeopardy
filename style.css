@@ -1,56 +1,65 @@
 body {
-  background: lightblue;
+  background: black;
   text-align: center;
   overflow: hidden;
+  display: flex;
+  /* justify-content: center; */
+  flex: 30% 70%;
 }
 
 .category {
-  border: 4px solid black;
-  width: 80px;
+  border: 4px solid white;
+  width: 150px;
   height: 80px;
-  margin: 20px;
-  border-radius: 20px;
+  margin: 5px;
+  border-radius: 15px;
   background: blue;
   color: white;
   font-weight: bold;
-  font-size: 15px;
-  padding: 10px;
+  font-size: 25px;
+  padding: 5px;
 }
 
 .categories,
 .category,
 .questions,
-.question {
+.question,
+.avatar-score,
+.main-board {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
+.main-board {
+  width: 100%;
+}
 .question {
   border: 3px solid black;
-  width: 80px;
-  height: 40px;
-  margin: 20px;
-  border-radius: 20px;
-  background: aqua;
-  color: black;
+  width: 150px;
+  height: 60px;
+  margin: 5px;
+  border-radius: 5px;
+  background: blue;
+  color: yellow;
   font-weight: bold;
-  font-size: 20px;
-  padding: 10px;
+  font-size: 40px;
+  padding: 5px;
 }
 
 .question-area {
-  font-size: 100px;
   width: 100%;
-  height: 600px;
+  height: 100%;
+  font-size: 60px;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
   text-align: center;
-  border: 2px solid red;
-  background: red;
-  border: 2px solid black;
-  /* padding: 10px 400px; */
+
+  /* background: blue; */
+  color: yellow;
 }
 button {
   width: 200px;
@@ -99,13 +108,73 @@ button {
   color: white;
   font-weight: bold;
 }
-.settings-area{
-display:flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+.settings-area {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
 }
 
-.players{
-    margin: 20px 0;
+.players {
+  margin: 20px 0;
+}
+
+.num-players {
+  display: flex;
+}
+.players {
+  margin: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  font-size: 60px;
+  font-weight: bold;
+  background: lightblue;
+}
+
+#player-name {
+  height: 50px;
+  width: 300px;
+  font-size: 30px;
+}
+
+.player-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.score-area {
+  width: 300px;
+  height: 600px;
+  border: 2px solid green;
+  background: green;
+  left: 0;
+}
+
+.score-logo {
+  width: 100%;
+  height: 150px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  margin-right: 30px;
+}
+.questionbox{
+    width: 100%;
+    height:100%;
+    border:2px solid black;
+    display:flex;
+    justify-content: space-around;
+    align-items: space-around;
+    background-color:black;
+    opacity: .8;
+}
+#show-question{
+    padding:100px 50px 0 50px;
+    color:yellow;
 }
