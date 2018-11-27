@@ -70,6 +70,7 @@ function getPlayerName() {
   document.getElementById('num-players').style.visibility = 'hidden';
   document.getElementById('player-area').style.visibility = 'visible';
   document.getElementById('player-name').value = '';
+  document.getElementById('player-name').focus()
 }
 
 function setPlayerName(playerName) {

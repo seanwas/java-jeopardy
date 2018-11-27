@@ -12,31 +12,31 @@
       <div class="logo">
         <img src="jeopardy-logo.jpeg" class="score-logo" />
       </div>
-      <div class="player-score-area"  style="visibility: hidden">
+      <div class="player-score-area" style="visibility: hidden">
         <hr />
         <div class="avatar-score">
           <div><img src="avatar1.png" class="avatar" /></div>
           <div><h2 class="score">$0</h2></div>
         </div>
-        <h3 class='score-name'>Player 1</h3>
+        <h3 class="score-name">Player 1</h3>
       </div>
 
-      <div class="player-score-area"  style="visibility: hidden">
+      <div class="player-score-area" style="visibility: hidden">
         <hr />
         <div class="avatar-score">
           <div><img src="avatar2.png" class="avatar" /></div>
           <div><h2 class="score">$0</h2></div>
         </div>
-        <h3  class='score-name'>Player 2</h3>
+        <h3 class="score-name">Player 2</h3>
       </div>
 
-      <div class="player-score-area"  style="visibility: hidden">
+      <div class="player-score-area" style="visibility: hidden">
         <hr />
         <div class="avatar-score">
           <div><img src="avatar3.png" class="avatar" /></div>
           <div><h2 class="score">$0</h2></div>
         </div>
-        <h3 class='score-name'>Player 3</h3>
+        <h3 class="score-name">Player 3</h3>
       </div>
     </div>
 
@@ -94,20 +94,20 @@
         <button id="play-btn">Start Game</button>
       </div>
     </div>
-    
-    <div class="question-area" id="question-area" style="visibility: hidden">
-        <div class="questionbox">
-                <div id="show-question">Question Area</div>
-                <div class='player-buttons'>
-                  <button class="player-btn" id='0'>Player A</button>
-                  <button class="player-btn" id='1'>Player B</button>
-                  <button class="player-btn" id='2'>Player C</button>
-                </div>
-               
 
-                <button id="question-btn" style="visibility: hidden">Show Answer</button>
-                
+    <div class="question-area" id="question-area" style="visibility: hidden">
+      <div class="questionbox">
+        <div id="show-question">Question Area</div>
+        <div class="player-buttons">
+          <button class="player-btn" id="0">Player A</button>
+          <button class="player-btn" id="1">Player B</button>
+          <button class="player-btn" id="2">Player C</button>
         </div>
+
+        <button id="question-btn" style="visibility: hidden">
+          Show Answer
+        </button>
+      </div>
       <div id="show-answer" style="visibility: hidden">Answer Area</div>
     </div>
 
@@ -115,13 +115,14 @@
     <div class="settings-area" style="visibility: hidden">
       <h1 id="settings-message">Select the number of players/teams</h1>
       <div id="num-players">
-        <button class="players">1</button> 
-        <button class="players">2</button>
+        <button class="players">1</button> <button class="players">2</button>
         <button class="players">3</button>
       </div>
 
       <div id="player-area" style="visibility: hidden">
-        <input id="player-name" /> <button id="name-btn">Submit</button>
+        <br />
+        <input id="player-name" /> <p><br />
+        <center><button id="name-btn">Submit Name</button> <br /></center>
         <input id="player-avatar" style="visibility: hidden" /> <br />
         <button id="avatar-btn" style="visibility: hidden">Submit</button>
       </div>
